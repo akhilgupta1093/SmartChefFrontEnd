@@ -1,0 +1,6 @@
+module Pods_CheapChef {
+  umbrella header "Pods-CheapChef-umbrella.h"
+
+  export *
+  module * { export * }
+}

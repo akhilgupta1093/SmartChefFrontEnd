@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B0423B8221928EC000171F9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0423B7221928EC000171F9 /* MapViewController.swift */; };
+		8B6F0C4F2218670F006BDDD1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F0C4E2218670F006BDDD1 /* ThirdViewController.swift */; };
+		8B6F0C5122186C63006BDDD1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6F0C5022186C63006BDDD1 /* CoreLocation.framework */; };
+		8B6F0C552218A19E006BDDD1 /* roundedrectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6F0C542218A19D006BDDD1 /* roundedrectangle.png */; };
+		8B6F0C572218A1F2006BDDD1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F0C562218A1F2006BDDD1 /* StartViewController.swift */; };
+		8B6F0C592218B713006BDDD1 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F0C582218B713006BDDD1 /* SearchResultsController.swift */; };
+		8BEFA04D2217DCA9000BB345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFA04C2217DCA9000BB345 /* AppDelegate.swift */; };
+		8BEFA04F2217DCA9000BB345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFA04E2217DCA9000BB345 /* ViewController.swift */; };
+		8BEFA0522217DCA9000BB345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFA0502217DCA9000BB345 /* Main.storyboard */; };
+		8BEFA0542217DCAB000BB345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFA0532217DCAB000BB345 /* Assets.xcassets */; };
+		8BEFA0572217DCAB000BB345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFA0552217DCAB000BB345 /* LaunchScreen.storyboard */; };
+		8BEFA0622217DCAB000BB345 /* CheapChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFA0612217DCAB000BB345 /* CheapChefTests.swift */; };
+		8BEFA06D2217DCAB000BB345 /* CheapChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFA06C2217DCAB000BB345 /* CheapChefUITests.swift */; };
+		8BEFA07B2217E0F8000BB345 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEFA07A2217E0F8000BB345 /* SecondViewController.swift */; };
+		C3D0281DDACFD7DECB7B4BA3 /* libPods-CheapChef.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DFFDD990F244C3D456B0C4 /* libPods-CheapChef.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BEFA05E2217DCAB000BB345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEFA0412217DCA9000BB345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BEFA0482217DCA9000BB345;
+			remoteInfo = CheapChef;
+		};
+		8BEFA0692217DCAB000BB345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEFA0412217DCA9000BB345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BEFA0482217DCA9000BB345;
+			remoteInfo = CheapChef;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B0423B7221928EC000171F9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8B6F0C4E2218670F006BDDD1 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		8B6F0C5022186C63006BDDD1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8B6F0C542218A19D006BDDD1 /* roundedrectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = roundedrectangle.png; path = ../../../../Downloads/roundedrectangle.png; sourceTree = "<group>"; };
+		8B6F0C562218A1F2006BDDD1 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		8B6F0C582218B713006BDDD1 /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
+		8BEFA0492217DCA9000BB345 /* CheapChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheapChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEFA04C2217DCA9000BB345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BEFA04E2217DCA9000BB345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BEFA0512217DCA9000BB345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BEFA0532217DCAB000BB345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BEFA0562217DCAB000BB345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BEFA0582217DCAB000BB345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEFA05D2217DCAB000BB345 /* CheapChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheapChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEFA0612217DCAB000BB345 /* CheapChefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheapChefTests.swift; sourceTree = "<group>"; };
+		8BEFA0632217DCAB000BB345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEFA0682217DCAB000BB345 /* CheapChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheapChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEFA06C2217DCAB000BB345 /* CheapChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheapChefUITests.swift; sourceTree = "<group>"; };
+		8BEFA06E2217DCAB000BB345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEFA07A2217E0F8000BB345 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		94DFFDD990F244C3D456B0C4 /* libPods-CheapChef.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CheapChef.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A38CB54E38E14C0802DA53 /* Pods-CheapChef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheapChef.release.xcconfig"; path = "Target Support Files/Pods-CheapChef/Pods-CheapChef.release.xcconfig"; sourceTree = "<group>"; };
+		EE935BF12092D6C8D7D1C10C /* Pods-CheapChef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheapChef.debug.xcconfig"; path = "Target Support Files/Pods-CheapChef/Pods-CheapChef.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BEFA0462217DCA9000BB345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6F0C5122186C63006BDDD1 /* CoreLocation.framework in Frameworks */,
+				C3D0281DDACFD7DECB7B4BA3 /* libPods-CheapChef.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFA05A2217DCAB000BB345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFA0652217DCAB000BB345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C4ACABC57C38C1D4DE6D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F0C5022186C63006BDDD1 /* CoreLocation.framework */,
+				94DFFDD990F244C3D456B0C4 /* libPods-CheapChef.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		851BA6D01277B386EC68C29F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE935BF12092D6C8D7D1C10C /* Pods-CheapChef.debug.xcconfig */,
+				B0A38CB54E38E14C0802DA53 /* Pods-CheapChef.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8BEFA0402217DCA9000BB345 = {
+			isa = PBXGroup;
+			children = (
+				8BEFA04B2217DCA9000BB345 /* CheapChef */,
+				8BEFA0602217DCAB000BB345 /* CheapChefTests */,
+				8BEFA06B2217DCAB000BB345 /* CheapChefUITests */,
+				8BEFA04A2217DCA9000BB345 /* Products */,
+				851BA6D01277B386EC68C29F /* Pods */,
+				17C4ACABC57C38C1D4DE6D57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BEFA04A2217DCA9000BB345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFA0492217DCA9000BB345 /* CheapChef.app */,
+				8BEFA05D2217DCAB000BB345 /* CheapChefTests.xctest */,
+				8BEFA0682217DCAB000BB345 /* CheapChefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BEFA04B2217DCA9000BB345 /* CheapChef */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFA04C2217DCA9000BB345 /* AppDelegate.swift */,
+				8BEFA04E2217DCA9000BB345 /* ViewController.swift */,
+				8BEFA07A2217E0F8000BB345 /* SecondViewController.swift */,
+				8B6F0C582218B713006BDDD1 /* SearchResultsController.swift */,
+				8B6F0C4E2218670F006BDDD1 /* ThirdViewController.swift */,
+				8B6F0C562218A1F2006BDDD1 /* StartViewController.swift */,
+				8B0423B7221928EC000171F9 /* MapViewController.swift */,
+				8BEFA0502217DCA9000BB345 /* Main.storyboard */,
+				8B6F0C542218A19D006BDDD1 /* roundedrectangle.png */,
+				8BEFA0532217DCAB000BB345 /* Assets.xcassets */,
+				8BEFA0552217DCAB000BB345 /* LaunchScreen.storyboard */,
+				8BEFA0582217DCAB000BB345 /* Info.plist */,
+			);
+			path = CheapChef;
+			sourceTree = "<group>";
+		};
+		8BEFA0602217DCAB000BB345 /* CheapChefTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFA0612217DCAB000BB345 /* CheapChefTests.swift */,
+				8BEFA0632217DCAB000BB345 /* Info.plist */,
+			);
+			path = CheapChefTests;
+			sourceTree = "<group>";
+		};
+		8BEFA06B2217DCAB000BB345 /* CheapChefUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BEFA06C2217DCAB000BB345 /* CheapChefUITests.swift */,
+				8BEFA06E2217DCAB000BB345 /* Info.plist */,
+			);
+			path = CheapChefUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BEFA0482217DCA9000BB345 /* CheapChef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEFA0712217DCAB000BB345 /* Build configuration list for PBXNativeTarget "CheapChef" */;
+			buildPhases = (
+				874A9F6F5E80A27856BD63C0 /* [CP] Check Pods Manifest.lock */,
+				8BEFA0452217DCA9000BB345 /* Sources */,
+				8BEFA0462217DCA9000BB345 /* Frameworks */,
+				8BEFA0472217DCA9000BB345 /* Resources */,
+				7EA27C9EBDD2D9D4F10FB182 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheapChef;
+			productName = CheapChef;
+			productReference = 8BEFA0492217DCA9000BB345 /* CheapChef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BEFA05C2217DCAB000BB345 /* CheapChefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEFA0742217DCAB000BB345 /* Build configuration list for PBXNativeTarget "CheapChefTests" */;
+			buildPhases = (
+				8BEFA0592217DCAB000BB345 /* Sources */,
+				8BEFA05A2217DCAB000BB345 /* Frameworks */,
+				8BEFA05B2217DCAB000BB345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BEFA05F2217DCAB000BB345 /* PBXTargetDependency */,
+			);
+			name = CheapChefTests;
+			productName = CheapChefTests;
+			productReference = 8BEFA05D2217DCAB000BB345 /* CheapChefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BEFA0672217DCAB000BB345 /* CheapChefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEFA0772217DCAB000BB345 /* Build configuration list for PBXNativeTarget "CheapChefUITests" */;
+			buildPhases = (
+				8BEFA0642217DCAB000BB345 /* Sources */,
+				8BEFA0652217DCAB000BB345 /* Frameworks */,
+				8BEFA0662217DCAB000BB345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BEFA06A2217DCAB000BB345 /* PBXTargetDependency */,
+			);
+			name = CheapChefUITests;
+			productName = CheapChefUITests;
+			productReference = 8BEFA0682217DCAB000BB345 /* CheapChefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BEFA0412217DCA9000BB345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Akhil Gupta";
+				TargetAttributes = {
+					8BEFA0482217DCA9000BB345 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8BEFA05C2217DCAB000BB345 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8BEFA0482217DCA9000BB345;
+					};
+					8BEFA0672217DCAB000BB345 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8BEFA0482217DCA9000BB345;
+					};
+				};
+			};
+			buildConfigurationList = 8BEFA0442217DCA9000BB345 /* Build configuration list for PBXProject "CheapChef" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BEFA0402217DCA9000BB345;
+			productRefGroup = 8BEFA04A2217DCA9000BB345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BEFA0482217DCA9000BB345 /* CheapChef */,
+				8BEFA05C2217DCAB000BB345 /* CheapChefTests */,
+				8BEFA0672217DCAB000BB345 /* CheapChefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BEFA0472217DCA9000BB345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEFA0572217DCAB000BB345 /* LaunchScreen.storyboard in Resources */,
+				8BEFA0542217DCAB000BB345 /* Assets.xcassets in Resources */,
+				8B6F0C552218A19E006BDDD1 /* roundedrectangle.png in Resources */,
+				8BEFA0522217DCA9000BB345 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFA05B2217DCAB000BB345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFA0662217DCAB000BB345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EA27C9EBDD2D9D4F10FB182 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheapChef/Pods-CheapChef-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CheapChef/Pods-CheapChef-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874A9F6F5E80A27856BD63C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheapChef-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BEFA0452217DCA9000BB345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6F0C572218A1F2006BDDD1 /* StartViewController.swift in Sources */,
+				8BEFA07B2217E0F8000BB345 /* SecondViewController.swift in Sources */,
+				8BEFA04F2217DCA9000BB345 /* ViewController.swift in Sources */,
+				8B6F0C4F2218670F006BDDD1 /* ThirdViewController.swift in Sources */,
+				8B6F0C592218B713006BDDD1 /* SearchResultsController.swift in Sources */,
+				8BEFA04D2217DCA9000BB345 /* AppDelegate.swift in Sources */,
+				8B0423B8221928EC000171F9 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFA0592217DCAB000BB345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEFA0622217DCAB000BB345 /* CheapChefTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEFA0642217DCAB000BB345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEFA06D2217DCAB000BB345 /* CheapChefUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BEFA05F2217DCAB000BB345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BEFA0482217DCA9000BB345 /* CheapChef */;
+			targetProxy = 8BEFA05E2217DCAB000BB345 /* PBXContainerItemProxy */;
+		};
+		8BEFA06A2217DCAB000BB345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BEFA0482217DCA9000BB345 /* CheapChef */;
+			targetProxy = 8BEFA0692217DCAB000BB345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BEFA0502217DCA9000BB345 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEFA0512217DCA9000BB345 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BEFA0552217DCAB000BB345 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEFA0562217DCAB000BB345 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BEFA06F2217DCAB000BB345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BEFA0702217DCAB000BB345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BEFA0722217DCAB000BB345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE935BF12092D6C8D7D1C10C /* Pods-CheapChef.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6QG54G3LV;
+				INFOPLIST_FILE = CheapChef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CheapChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BEFA0732217DCAB000BB345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A38CB54E38E14C0802DA53 /* Pods-CheapChef.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6QG54G3LV;
+				INFOPLIST_FILE = CheapChef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CheapChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BEFA0752217DCAB000BB345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheapChefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CheapChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheapChef.app/CheapChef";
+			};
+			name = Debug;
+		};
+		8BEFA0762217DCAB000BB345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheapChefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CheapChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheapChef.app/CheapChef";
+			};
+			name = Release;
+		};
+		8BEFA0782217DCAB000BB345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheapChefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CheapChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheapChef;
+			};
+			name = Debug;
+		};
+		8BEFA0792217DCAB000BB345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheapChefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CheapChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheapChef;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BEFA0442217DCA9000BB345 /* Build configuration list for PBXProject "CheapChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEFA06F2217DCAB000BB345 /* Debug */,
+				8BEFA0702217DCAB000BB345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEFA0712217DCAB000BB345 /* Build configuration list for PBXNativeTarget "CheapChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEFA0722217DCAB000BB345 /* Debug */,
+				8BEFA0732217DCAB000BB345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEFA0742217DCAB000BB345 /* Build configuration list for PBXNativeTarget "CheapChefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEFA0752217DCAB000BB345 /* Debug */,
+				8BEFA0762217DCAB000BB345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEFA0772217DCAB000BB345 /* Build configuration list for PBXNativeTarget "CheapChefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEFA0782217DCAB000BB345 /* Debug */,
+				8BEFA0792217DCAB000BB345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BEFA0412217DCA9000BB345 /* Project object */;
+}
